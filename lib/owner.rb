@@ -25,7 +25,7 @@ attr_reader :species
    end
 
   def self.reset_all
-    @@owner_counter = 0
+    self.count = 0
   end
 
 
