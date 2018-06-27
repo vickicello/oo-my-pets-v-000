@@ -8,7 +8,7 @@ attr_reader :species
   def initialize(name)
     @name = name
     @species = species
-    @pets = {fishes: [], cats: [], dogs: []}
+    @pets = { fishes: [], cats: [], dogs: [] }
     @@owner_counter = 0
   end
 
