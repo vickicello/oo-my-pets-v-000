@@ -20,10 +20,6 @@ attr_reader :species
     @@all
   end
 
-  def save
-     @@all << self
-   end
-
   def self.reset_all
     self.count = 0
   end
