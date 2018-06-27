@@ -5,7 +5,7 @@ attr_reader :species
   @@all = []
   @@owner_counter = 0
 
-  def initialize(name, species, pets)
+  def initialize(name)
     @name = name
     @species = species
     @pets = {}
