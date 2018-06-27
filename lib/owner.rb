@@ -9,7 +9,7 @@ attr_reader :species
     @name = name
     @species = species
     @pets = {}
-    @@owner_counter += 1
+    @@owner_counter = 0
   end
 
   def self.all
