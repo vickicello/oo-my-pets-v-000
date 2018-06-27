@@ -58,5 +58,12 @@ attr_reader :species
     @pets[:cats].each { |cat| cat.mood = "nervous" }
     @pets[:fishes].each { |fish| fish.mood = "nervous" }
     @pets = { fishes: [], cats: [], dogs: [] }
+  end
+
+  def list_pets
+    "I have #{pets[:fishes].count} fish, 
+    #{pets[:dogs].count} dogs, and
+    #{pets[:cats].count} cats."
+  end
 
 end
