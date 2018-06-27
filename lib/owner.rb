@@ -14,6 +14,7 @@ attr_reader :species
   end
 
   def self.count
+    @@all.count
   end
 
   def self.all
